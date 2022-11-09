@@ -24,7 +24,7 @@ export class CatalogueComponent implements OnInit {
 
   AjouterP($event: Produit): void {
     this.panierService.ajouterProduitAuPanier($event);
-    this.panier = this.panierService.getPanier();
+   
   }
 
   getTotal(): number {
